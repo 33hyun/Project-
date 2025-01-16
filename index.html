@@ -10,11 +10,11 @@
     <header>
       <h1 class="mainn">영화 검색</h1>
       <div class="search">
-        <input
-          type="text"
-          id="searchInput"
-          placeholder="영화를 검색하세요..."
-        />
+        <label for="inp" class="inp">
+          <input type="text" id="searchInput" placeholder="&nbsp;">
+          <span class="label">영화 제목을 입력하세요. . .</span>
+          <span class="focus-bg"></span>
+        </label>
         <button id="searchbtn">검색</button>
       </div>
       <div class="bookmark">
@@ -27,11 +27,11 @@
         <div id="bookmarkList" class="movies"></div>
       </section>
       <section id="searchresult">
-        <h1>검색 결과</h1>
-        <div id="movieresult" class="movies"></div>
+        <h1 class="ss"></h1>
+        <div id="movieresult" class="movies" ></div>
       </section>
       <section id="popular">
-        <h2>인기 영화</h2>
+        <h2 class="bin">📍 이 달 최고의 작품들 📍</h2>
         <div id="popularmovie" class="movies"></div>
       </section>
       <script src="movie.js"></script>
